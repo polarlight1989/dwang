@@ -1,0 +1,114 @@
+<include file="Inc/header" />
+	<script src="/public/videojs/video.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+    VideoJS.setupAllWhenReady();
+  </script>
+  <link rel="stylesheet" href="/public/videojs/video-js.css" type="text/css" media="screen" title="Video JS">
+  
+	<div class='main row' style='margin-top:88px;'>
+		<include file="Inc/iTabHeader"/>
+		<?php
+		$map = array('lang'=>C('LANG'),'catalog_id'=>$catalog['id']);
+		$data = D('Arcs')->WHERE($map)->ORDER("cdate DESC")->SELECT();
+		foreach($data as $k=>$v){
+			$data[$k]['cdate'] = date("Y/m/d",$data[$k]['cdate']);
+			$data[$k]['frm'] = "/index.php/video/".(str_replace("/","*",$v["intro"]))."/".(str_replace("/","*",$v["thumb"]))."/".(str_replace("/","*",$v["title"]))."";
+		}
+		?>
+		<!-- 文字列表 -->
+		<div class='itabTxtList il2' style='background-color:#f5f5f5;overflow:hidden;padding:0px 0px;' >
+			<div class='videoList'>
+				<div class='vlShow' id='itemThumb'  >
+					<!--<div class='vltitle'><div id='itemTitle'></div></div>
+					<a class='videoplay' id="videoplay" video="" href='javascript:startVideo()'></a>
+					<div class='vlbar'></div>-->
+				<div style='position:absolute;top:0px;left:0px;width:850px;height:640px;'>
+					<iframe width='850px' src='' id='fmr' height="640px" frameborder="no" border="0"  marginwidth="0" marginheight="0" scrolling="no"  ></iframe>
+				</div>
+				</div>
+				<div class='videoscroll'>
+					<div class='vsrc'>
+						<div class='vsrctitle'>{:lang('MORE VIDEOS')}</div>
+						
+						<ul class='vsrul'>
+							<a href='javascript:pageFX(0);' class='jt'></a>
+							<div style='height:375px;overflow:hidden' id='scrollBox'>
+								<div class='vrbox'>
+							 
+								</div>
+							</div>
+							<a href='javascript:pageFX(1);' class='jt up'></a>
+						</ul>
+						
+					</div>
+					<div class='vlistca'>
+					</div>
+				</div>
+			</div>
+			<div id='vlTxt'>
+			
+			</div>
+			<div style='width:1200px;margin:0px auto;margin-top:50px;'>
+				 
+			</div>
+		</div>
+		<script>
+		var data = <?=json_encode($data)?>;
+		var nowpage = 0;
+		var pageCount = 0;
+		function pageFX(i){
+			if(i){
+				nowpage++;
+			}else{
+				nowpage--;
+			}
+			pageChange();
+		}
+		function pageChange(i){
+			if(i) nowpage = i;
+			if(nowpage<0) nowpage = pageCount-1;
+			if(nowpage>=pageCount) nowpage = 0;
+			var mt = (nowpage) * parseInt($("#scrollBox").height());
+	 
+			$(".vrbox").animate({'marginTop':(0-mt)},200);
+			$(".pchange").removeClass('cur');
+			$(".pchange").eq((nowpage)).addClass('cur');
+		}
+		function pageInit(){
+			var html ="";
+			var count = 0;
+			for(var i in data){
+				count++;
+				var v = data[i];
+				 
+				html += "<li><a href='javascript:playvideo("+i+");'  class='vsliimg'><img src='"+v.thumb+"' height='95px'/></a><a href='javascript:playvideo("+i+");' class='vslitxt'>"+v.title+"<br/>"+v.cdate+"</a></li>";
+			}
+			$(".vrbox").html(html);
+			
+			var liheight = $(".vrbox").eq(0).height();
+			var allheight = count * liheight;
+			pageCount = Math.ceil(count/3);
+			for(i=0;i<pageCount;i++){
+				var className = i==0?'cur':'';
+				$(".vlistca").append(" <a href='javascript:pageChange("+i+")' class=' pchange "+className+"'></a> ");
+			}
+		}
+		$(function(){
+			pageInit();
+			playvideo(0);
+		});
+		function playvideo(i){
+ 
+			$("#fmr").attr('src',data[i]['frm']);
+			$("#vlTxt").html(data[i]['content']);
+		}
+		</script>
+ </div>
+<include file="Inc/footer" />
+
+
+
+
+
+
+

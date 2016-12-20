@@ -1,0 +1,145 @@
+<include file="Inc/header" />
+<div class='main row' style='margin-top:88px;'>
+		<!-- tel -->
+ 
+		<include file="Inc/iTabHeader" tab='1'/>
+		
+		<?php
+		$pagelength = 5;
+		$page = I('GET.page',1);
+		$map = array('catalog_id'=>$catalog['id']);
+
+		$map['lang'] = C('LANG');
+		$arcs = D('Arcs')->WHERE(array('lang'=>C('lang'),'catalog_id'=>$catalog[id]))->page($page,$pagelength)->SELECT();
+ 
+		$count = D('Arcs')->WHERE(array('lang'=>C('lang'),'catalog_id'=>$catalog[id]))->count();
+		?>
+		<!-- 文字列表 -->
+		
+		<script>
+		var aid = $('[aid]').first().eq(0).attr('aid');
+		function showArc(id){
+			$("#ill1").trigger('click');
+			aid = id;
+			$("[aid]").hide();
+			 
+			$("[aid='"+aid+"']").show();
+		}
+ 
+
+		$(function(){
+			
+			 $(".icon_list").click(function(){
+				var ind = $(this).index();
+				$("[il2]").hide();
+				$("[il2]").eq(ind).show();
+			});
+			
+			showArc(aid);
+		});
+		</script>
+		<div class='itabTxtList il2' style='background-color: #f5f5f5;margin-top:0px;margin-top:0px;padding:30px 35px;' >
+		<?php
+
+		$row=1;
+		if($arcs) foreach($arcs as $v){
+		?>
+			<li >
+				<a href="/index.php/{:C('LANG')}/Arcs/{$v.catalog_id}/{$v.id}"  class='ipic'><img src='{$v.thumb}'/></a>
+				<div class='itcon'>
+					<div class='itconTit'>
+					<a href='' class='bicon_tag'></a>
+					<a href="{:arcHref($v[id],$catalog[id])}" class='it2title' style='top:25px;'>{$v.title}</a>
+ 
+					</div>
+					<p class='it2des'>发布时间 : <?=date("Y年m月d日",$v['cdate'])?></p>
+					<p class='it2con' style='height:60px;overflow:hidden;'><?=strip_tags($v['content'])?></p>
+				</div>
+			</li>
+			<?=$row++==5?'':'<li class=\'i2hr\'></li>'?>
+			<?php } ?>
+			<div>
+		</div>
+		
+		<script>
+		$(function(){
+			$(".jtdown").click(function(){
+				bl = -510;
+				$(".fnn").animate({'margin-top':'-510px'},300,function(){
+					$(".fnn").css('marginTop',0);
+				});
+			});
+			$(".jtup").click(function(){
+				$(".fnn").css('marginTop',-510);
+				$(".fnn").animate({'margin-top':'510px'},300,function(){
+					$(".fnn").css('marginTop',0);
+				});
+			});
+		});
+		</script>
+		 
+	</div>
+{:getPage($pagelength,$count)}
+ </div>
+ <style>
+ .itabTxtList >div:last{
+ 	border-bottom:0px;
+ }
+ .leadersList{
+	width:1075px;
+	margin:5px auto;
+	position:relative;
+ }
+ .leadersList .items{
+	height:298px;
+	padding:35px 0px;
+	border-bottom:1px #000000 dashed;
+ }
+ .leadersList .photo{
+	width:154px;
+	height:228px;
+	position:absolute;
+	height:228px;
+ }
+ .leadersList .items .itemsTxt{
+	height:228px;
+	width:900px;
+	position:absolute;
+	right:0px;
+	top:0px;
+ }
+  .leadersList .items .itemsTxt .aname{
+	color:#62abf6;
+	font-family:'微软雅黑';
+	font-size:26px;
+	padding:0px;
+  }
+.leadersList .items .itemsTxt .azhiwei{
+	font-size:22px;
+	color:#636363;
+ 
+	font-family:'微软雅黑';
+	line-height:34px;
+	height:34px;
+}
+.leadersList .items .itemsTxt .acontent{
+	height:154px;
+	line-height:22px;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+ </style>
+<include file="Inc/footer" />
+
+
+
+
+
+
+
+
+
+
+
+

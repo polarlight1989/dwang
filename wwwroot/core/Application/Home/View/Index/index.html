@@ -1,0 +1,156 @@
+<include file="Inc/header" />
+<?php
+$focus = D('Thumbs')->WHERE(array('catalog_id'=>100))->SELECT();
+if($focus){
+?>
+<div class="main focus">
+	<div class="fbox">
+ 		<?php 
+ 			$row=0;
+ 			foreach($focus as $v){
+ 		?>
+			<li class="<?=$row++==0?'cur':''?>" href='<?=$v["title"]?$v["title"]:"javascript:void(0);"?>'>
+				<a href='<?=$v["title"]?$v["title"]:"javascript:void(0);"?>' <?=$v["title"]?'target="_blank"':'';?> ><img src="{$v.thumb}" width="1280px" height="427px"></a>
+			</li>
+		<?php } ?>
+	</div>
+</div>
+<?php } ?>
+<div class="main row" style="margin-top:28px;">
+ <?php
+				$pageLength = 4;
+				$page = I('GET.page',1);
+	 
+				$arcs = D('Arcs')->WHERE(array('lang'=>LANG,'catalog_id'=>43))->page($page,$pageLength)->SELECT();
+				$count = D('Arcs')->WHERE(array('lang'=>LANG,'catalog_id'=>43))->count();
+				?>
+		<!--ͼƬ�б�-->
+		<div class="itabPicList il2" style='margin-top:0px;'>
+			<?php
+			$row=0;
+			if($arcs) foreach($arcs as $data){
+			$row++;
+			?>
+			<div class="col-md-3 yyright" style='z-index:<?=1000-$row?>'>
+				<img src="{$data.thumb}" width="320px" height="233px">
+				<div class="itabConB">
+					<span>{$data.title|msubstr=10,0}<br/>{$data.intro|msubstr=10}</span>
+					<span href="" class=""></span>
+					<a href="" class="icon1"></a>
+					<a href="" class="icon2"></a>
+					<a href="" class="icon3"></a>
+					<a href="" class="icon_down"></a>
+				</div>
+				<div class="itwrap" style="display: none;">
+					
+					<div class="itinnerd">
+						<div class="itw1">
+							<span class="iicon_tag"></span>
+							<div class="itwheader">{$data.title|msubstr=24,0}</div>
+						</div>
+						<div class="itw2">
+							{:lang('Upload time')}:{:date('Y-m-d',$data[cdate])}<br>
+							{:lang('Click times')}:157 {:lang('times')}
+						</div>
+						<div class="itw3">
+						</div>
+						<div class="itw2">
+							{$data.intro}
+						</div>
+						<a href="{:arcHref($data[id],43)}" class="itwbtn">{:lang('READ MORE')}</a>
+					</div>
+					 
+						
+					 
+				</div>
+				 <i class='yy'></i>
+			</div>
+			
+			<?php } ?>
+			
+		</div>
+		
+		 
+	</div>
+	
+	
+	
+	
+	
+<div class="main row in3">
+		<div class=" in3b">
+			<div>
+				<?php
+				if(C('LANG') == 'zh'){
+				?>
+				<h1>我们 <br>在全球</h1>
+				<?php } ?>
+				<?php
+				if(C('LANG') == 'en'){
+				?>
+				<h1>WE ARE <br>IN THE WORLD</h1>
+				<?php } ?>
+				<div>
+					<img src="/public/temp/index_pic.jpg">
+				</div>
+				<div class="in3bsel">
+				<select style='padding:3px;' selectArea><option   value='1' selected>{:getLang('SELECTION REGION')}</option>{:getAreaOptions()}</select>
+				</div>
+			</div>
+		</div>
+		<div class=" in3b">
+			<div>
+				<h1>{:lang('ABOUT US')}</h1>
+				<div>
+					<p style="padding:5px 0px;line-height:22px;">
+						<?php
+						if(LANG == 'zh'){
+					 
+						?>
+						上海城建国际工程有限公司（以下简称“城建国际”）是一家以海外工程建设、设计和管理、投资、建筑设备销售为一体的国际公司。城建国际整合了上海城建集团原有的海 外业务，认真总结和吸取集团近年来新加坡、印度、安哥拉、香港等海外市场所取得的经验，依托集团的整体优势并充分利用原有资源，发挥其在投资、设计、施工、机械制 造等专业领域的技术优势和核心业务优势，高水平地投身于海外工程建设。
+						<?php } ?>
+						<?php
+						if(LANG == 'en'){
+						 
+						?>
+					Shanghai Urban Construction International Engineering Co., Ltd. (hereinafter referred to as the "urban construction international") is a home to overseas engineering construction, design and management, investment, construction equipment sales as one of the international company. Urban construction international integration of the Shanghai Urban Construction Group, the original overseas business, conscien
+						<?php } ?>
+					</p>
+				</div>
+				<div>
+					<img src="/public/temp/inpic4.jpg">
+				</div>
+				 
+			</div>
+			<div class="in3bzz">
+					<p>{:lang('ABOUT US')}</p>
+					<a href="{:catalogHref('35')}">{:lang('READ MORE')}</a>
+				</div>
+		</div>
+		<div class=" in3b">
+			<div>
+				<h1>{:lang('NEWS')}</h1>
+				<div class="in3bli">
+					<?php
+	 
+					$arcs = D('Arcs')->WHERE(array('lang'=>LANG,'catalog_id'=>52))->page(1,6)->SELECT();
+					if($arcs) foreach($arcs as $v){
+					?>
+					<li><i></i><a href="{:catalogHref('39')}">{$v.title}</a></li>
+					<?php } ?>
+				</div>
+				<div>
+					<a href="{:catalogHref('52')}"><img src="/public/temp/inpic4.jpg"></a>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+<include file="Inc/footer" />	
+	
+	
+	
+	

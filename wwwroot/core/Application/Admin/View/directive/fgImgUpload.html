@@ -1,0 +1,36 @@
+<div class="form-group ">
+    <label class="control-label col-md-3">
+        {{title}}
+    </label>
+    <div class="col-md-9">
+        <div class="fileinput fileinput-new" data-provides="fileinput">
+            <div class=" " style='margin-bottom:15px;' >
+                <img src="/Public/images/noimage.png" ng-if="!img" alt="" class='showimg' />
+                <img src="{{img}}" ng-if="img" alt="" class='showimg' class='showimg' ng-click='openImg()'/>
+            </div>
+            <div style='display:none'>
+                <input type='text' name='' class='hideSrc' ng-model='hideSrc' />
+            </div>
+            <div>
+                <span class="btn default btn-file" ng-click='selectPic()'>
+                    {{selectText}}
+                </span>
+                <div style='display:none'><input type="file" name="uploadfile"></div>
+                </span>
+                <a href="javascript:;" ng-if="img"  ng-click='removepic()' class="btn red fileinput-exists" data-dismiss="fileinput">
+                    移除
+                </a>
+            </div>
+        </div> 
+    </div>
+</div>
+<style>
+.showimg{
+    border:1px solid #cdcdcd;
+    padding:2px;
+    border-radius: 2px;
+    max-width: 200px;
+    max-height: 200px;
+    cursor: pointer;
+}
+</style>

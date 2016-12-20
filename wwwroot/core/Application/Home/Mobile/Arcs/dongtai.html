@@ -1,0 +1,21 @@
+<include file="Inc/header" />
+<div class='main row' style='margin-top:88px;'>
+		<include file="Inc/iTabHeader"/>
+		
+		<!-- 文字列表 -->
+		<div class='itabTxtList il2' style='background-color:#f5f5f5;overflow:hidden;padding:80px 0px;' >
+			<?php
+			$data = D('Dongtai')->WHERE(array('id'=>$id))->find();
+			 
+			?>
+			<div class="txtConList">
+				<h2><img src="/public/images/clock.png">&nbsp;&nbsp;&nbsp;&nbsp;{$data.title} ({$data.year})</h2>
+				<div>
+				{$data.content}
+				</div>
+			</div>
+			 
+ 
+		</div>
+ </div>
+<include file="Inc/footer" /> 

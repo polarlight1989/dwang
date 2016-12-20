@@ -1,0 +1,96 @@
+<include file="Inc/header" />
+<div class='main row' style='margin-top:88px;'>
+		<!-- tel -->
+		<?php
+		$iTabChange = 1;
+		?>
+		<include file="Inc/iTabHeader"/>
+		<!--图片列表-->
+		
+		<?php
+
+		$pageLength = 8;
+		$page = I('GET.page',1);
+		$arcs = D('Arcs')->WHERE(array('lang'=>C('LANG'),'catalog_id'=>$catalog['id']))->page($page,$pageLength)->SELECT();
+		$count = D('Arcs')->WHERE(array('lang'=>C('LANG'),'catalog_id'=>$catalog['id']))->count();
+		?>
+		<!-- 文字列表 -->
+		
+		<div class="itabPicList il2" style='margin-top:0px;'>
+			<?php
+			if($arcs) foreach($arcs as $data){
+			?>
+			<div class="col-md-3 yyright">
+				<img src="{$data.thumb}" width="320px" height="233px">
+				<div class="itabConB">
+					<span>{$data.title|msubstr=10,0}<br/>{$data.intro|msubstr=10}</span>
+					<span href="" class=""></span>
+					<a href="" class="icon1"></a>
+					<a href="" class="icon2"></a>
+					<a href="" class="icon3"></a>
+					<a href="" class="icon_down"></a>
+				</div>
+				<div class="itwrap" style="display: none;">
+					
+					<div class="itinnerd">
+						<div class="itw1">
+							<span class="iicon_tag"></span>
+							<div class="itwheader">{$data.title|msubstr=24,0}</div>
+						</div>
+						<div class="itw2">
+							{:lang('Upload time')}:{:date('Y-m-d',$data[cdate])}<br>
+							{:lang('Click times')}:157 {:lang('times')}
+						</div>
+						<div class="itw3">
+						</div>
+						<div class="itw2">
+							{$data.intro}
+						</div>
+						<a href="{:arcHref($data[id],$catalog[id])}" class="itwbtn">{:lang('READ MORE')}</a>
+					</div>
+					 
+						
+					 
+				</div>
+				<i class='yy'></i>
+			</div>
+			
+			<?php } ?>
+			 
+		</div>
+		<div class='itabTxtList il2' style='display:none'>
+		<?php
+		if($arcs) foreach($arcs as $v){
+		?>
+			<li>
+				<a href="javascript:showArc({$v.id});" class='ipic'><img src='{$v.thumb}'/></a>
+				<div class='itcon'>
+					<div class='itconTit'>
+					<a href='' class='bicon_tag'></a>
+					<a href="/index.php/<?=LANG?>/Arcs/{$catalog[id]}/{$v.id}" class='it2title'>{$v.title|msubstr=10,0}<br/>{$v.title|msubstr=20,10}</a>
+					<a href="" class='bicon1'></a>
+					<a href="" class='bicon2'></a>
+					<a href="" class='bicon3'></a>
+					</div>
+					<p class='it2des'>发布时间 : <?=date("Y年m月d日",$v['cdate'])?></p>
+					<p class='it2con' style='height:60px;overflow:hidden;'><?=strip_tags($v['content'])?></p>
+				</div>
+			</li>
+			<li class='i2hr'></li>
+			<?php } ?>
+			 
+		</div>
+		{:getPage($pageLength,$count)}
+<include file="Inc/footer" />
+
+
+
+
+
+
+
+
+
+
+
+

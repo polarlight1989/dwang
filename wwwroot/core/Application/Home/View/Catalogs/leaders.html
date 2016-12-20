@@ -1,0 +1,97 @@
+<include file="Inc/header" />
+<div class='main row' style='margin-top:88px;'>
+		<include file="Inc/iTabHeader"/>
+		 
+		<?php
+		$pagelength = 5;
+		$page = I('GET.page',1);
+		$arcs = D('Leaders')->WHERE(array('lang'=>C('lang')))->page($page,$pagelength)->SELECT();
+		$count = D('Leaders')->WHERE(array('lang'=>C('lang')))->count();
+		?>
+		<!-- 文字列表 -->
+		<div class='itabTxtList il2' style='background-color:#f5f5f5;overflow:hidden;padding:80px 0px;' >
+			<div class='leadersList'>
+				<?php
+				$row=0;
+				foreach($arcs as $v){
+					$row++;
+				?>
+				<div class='items' <?php if($row==$pagelength){ ?>style='border-bottom:0px'<?php } ?>>
+					<div style='position:relative;'>
+					<a href='{:arcHref($v[id],$catalog[id])}' class='photo'><img style='height:228px;width:154px' src='<?=$v['thumb']?>'/></a>
+					<div class='itemsTxt'>
+						<a href='{:arcHref($v[id],$catalog[id])}' class='aname'>{$v.title}</a>
+						<div class='azhiwei'>
+							职位：{$v.intro}
+						</div>
+						<div class='acontent'>
+							{$v.content}
+						</div>
+					</div>
+					</div>
+				</div>
+				<?php } ?>
+				{:getPage($pagelength,$count)}
+			</div>
+			
+		</div>
+ </div>
+ <style>
+ .leadersList{
+	width:1075px;
+	margin:5px auto;
+	position:relative;
+ }
+ .leadersList .items{
+	height:298px;
+	padding:35px 0px;
+	border-bottom:1px #000000 dashed;
+ }
+ .leadersList .photo{
+	width:154px;
+	height:228px;
+	position:absolute;
+	height:228px;
+ }
+ .leadersList .items .itemsTxt{
+	height:228px;
+	width:900px;
+	position:absolute;
+	right:0px;
+	top:0px;
+ }
+  .leadersList .items .itemsTxt .aname{
+	color:#62abf6;
+	font-family:'微软雅黑';
+	font-size:26px;
+	padding:0px;
+  }
+.leadersList .items .itemsTxt .azhiwei{
+	font-size:22px;
+	color:#636363;
+ 
+	font-family:'微软雅黑';
+	line-height:34px;
+	height:34px;
+}
+.leadersList .items .itemsTxt .acontent{
+	height:154px;
+	line-height:22px;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+ </style>
+<include file="Inc/footer" />
+
+
+
+
+
+
+
+
+
+
+
+

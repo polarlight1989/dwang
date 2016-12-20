@@ -1,0 +1,172 @@
+<include file="Inc/header" />
+<div class='main row' style='margin-top:88px;'>
+		<!-- tel -->
+ 
+		<include file="Inc/iTabHeader" tab='1'/>
+		
+		<?php
+		$map = array('catalog_id'=>$catalog['id']);
+		$map['lang'] = C('LANG');
+		$arcs = D('Thumbs')->WHERE($map)->ORDER('CDATE DESC')->select();
+		$count = count($arcs);
+		?>
+		<!-- 文字列表 -->
+		 <div class='itabTxtList il2'  >
+			<div class='pdd'>
+				<?php
+				if($arcs) foreach($arcs as $v){
+				?>
+				<div class='itcon' style='display:none;width:860px;' aid='{$v.id}'>
+					<div style='height:700px;text-align:center;overflow-y:hidden;'>
+					 <img src='{$v.thumb}' style='margin:15px 0px;'/>
+					<p class='it2con' style='line-height:67px;color:#000000;'><img src='/public/images/icon_jiangzhang.png'/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$v.title}</p>
+					</div>
+				</div>
+				<?php } ?>
+				<div class='floatChange'>
+					<a href='javascript:void(0);' class='jtup'></a>
+					<a href='javascript:void(0);' class='jtdown'></a>
+					<div class='fcinner' style='525px;'>
+						<div class='fnn'>
+						<?php
+				if($arcs) foreach($arcs as $v){
+				?>
+						<a href='javascript:void(0)' title='{$v.title}' onclick='showArc({$v.id})' style='margin-bottom:5px;' ><img src='{$v.thumb}' height="171px" width="222px"/></a>
+				<?php } ?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+		var aid = $('[aid]').first().eq(0).attr('aid');
+		function showArc(id){
+			$("#ill1").trigger('click');
+			aid = id;
+			$("[aid]").hide();
+			 
+			$("[aid='"+aid+"']").show();
+		}
+ 
+
+		$(function(){
+			
+			 $(".icon_list").click(function(){
+				var ind = $(this).index();
+				$("[il2]").hide();
+				$("[il2]").eq(ind).show();
+			});
+			
+			showArc(aid);
+		});
+		</script>
+		<div class='itabTxtList il22' style='display:none'>
+		<?php
+		if($arcs) foreach($arcs as $v){
+		?>
+			<li>
+				<a href="javascript:showArc({$v.id});" class='ipic'><img src='{$v.thumb}'/></a>
+				<div class='itcon'>
+					<div class='itconTit'>
+					<a href='' class='bicon_tag'></a>
+					<a href="javascript:showArc({$v.id});" class='it2title'>{$v.title}</a>
+					<a href="" class='bicon1'></a>
+					<a href="" class='bicon2'></a>
+					<a href="" class='bicon3'></a>
+					</div>
+					<p class='it2des'>发布时间 : <?=date("Y年m月d日",$v['cdate'])?></p>
+					<p class='it2con' style='height:60px;overflow:hidden;'><?=strip_tags($v['content'])?></p>
+				</div>
+			</li>
+			<li class='i2hr'></li>
+			<?php } ?>
+			 
+		</div>
+		
+		<script>
+		var count = {$count};
+		var pagenum = count/3+(count%3?1:0);
+		var page = 1;
+		var bl = 525;
+		function toPage(){
+			if(page>pagenum) page = 1;
+			if(page<1)page=pagenum;
+			var mr = 0-(page-1)*bl;
+			$(".fnn").animate({'margin-top':mr+'px'},300,function(){ 
+			});
+		}
+		$(function(){
+			$(".jtdown").click(function(){
+				page++;
+				toPage();
+				
+			});
+			$(".jtup").click(function(){
+				page--;
+				toPage();
+			});
+		});
+		</script>
+		 
+	</div>
+
+ </div>
+ <style>
+ .leadersList{
+	width:1075px;
+	margin:5px auto;
+	position:relative;
+ }
+ .leadersList .items{
+	height:298px;
+	padding:35px 0px;
+	border-bottom:1px #000000 dashed;
+ }
+ .leadersList .photo{
+	width:154px;
+	height:228px;
+	position:absolute;
+	height:228px;
+ }
+ .leadersList .items .itemsTxt{
+	height:228px;
+	width:900px;
+	position:absolute;
+	right:0px;
+	top:0px;
+ }
+  .leadersList .items .itemsTxt .aname{
+	color:#62abf6;
+	font-family:'微软雅黑';
+	font-size:26px;
+	padding:0px;
+  }
+.leadersList .items .itemsTxt .azhiwei{
+	font-size:22px;
+	color:#636363;
+ 
+	font-family:'微软雅黑';
+	line-height:34px;
+	height:34px;
+}
+.leadersList .items .itemsTxt .acontent{
+	height:154px;
+	line-height:22px;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+ </style>
+<include file="Inc/footer" />
+
+
+
+
+
+
+
+
+
+
+
+

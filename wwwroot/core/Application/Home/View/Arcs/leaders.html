@@ -1,0 +1,21 @@
+<include file="Inc/header" />
+<div class='main row' style='margin-top:88px;'>
+		<include file="Inc/iTabHeader"/>
+		
+		<!-- 文字列表 -->
+		<div class='itabTxtList il2' style='background-color:#f5f5f5;overflow:hidden;padding:20px 0px;' >
+			<?php
+			$data = D('Leaders')->WHERE(array('id'=>$id))->find();
+			 
+			?>
+			<div class="txtConList">
+				<h2 style='padding-bottom:30px;'><img src="/public/images/txicon.png">&nbsp;&nbsp;&nbsp;&nbsp;{$data.title} ({$data.intro})</h2>
+				<div>
+				{$data.content}
+				</div>
+			</div>
+			 
+ 
+		</div>
+ </div>
+<include file="Inc/footer" /> 

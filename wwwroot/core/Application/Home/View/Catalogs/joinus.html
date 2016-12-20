@@ -1,0 +1,42 @@
+<include file="Inc/header" />
+<div class='main row' style='margin-top:88px;'>
+		<!-- tel -->
+		<include file="Inc/iTabHeader"/>
+		<!--图片列表-->
+		 
+		<?php
+		$pageLength = 6;
+		$page = I('GET.page',1);
+		$arcs = D('Joinus')->WHERE(array('lang'=>C('LANG')))->page($page,$pageLength)->SELECT();
+		$count = D('Joinus')->WHERE(array('lang'=>C('LANG')))->count();
+		?>
+		<!-- 文字列表 -->
+		
+		<div class="itabTxtList il2" style="background-color:#f5f5f5;overflow:hidden;padding:80px 0px;">
+			<ul class="joinusList">
+			<?php
+			if($arcs) foreach($arcs as $v){
+			?>
+				<li>
+					<a href="{:arcHref($v[id],41)}" class="txicon"></a>
+					<a href="{:arcHref($v[id],41)}" class="jltitle1">{$v.title}</a>
+					<a href="{:arcHref($v[id],41)}" class="jltitle2">({$v.intro})</a>
+				</li>
+			<?php } ?>
+			</ul>
+			
+		</div>
+		{:getPage($pageLength,$count)}
+<include file="Inc/footer" />
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+<div ng-page-nav ></div>
+<div style='height:20px;'></div>
+
+<div class='dropzone' insert="addThumb(param)"></div>
+<div style='height:1px;border-top:1px solid #cdcdcd;margin:10px auto;'></div>
+<div class="row" style='margin-top:20px;'>
+ 
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" ng-repeat="v in data" id='arc{{v.id}}'>
+                                <div class="portlet light portlet-fit bordered">
+                                    <div class="portlet-title">
+                                        <div class="caption">
+                                            <i class=" icon-layers font-green"></i>
+                                            <span class="caption-subject font-green bold uppercase">{{v.cdate*1000|date:"yyyy-MM-dd hh:mm:ss"}}</span>
+                                            <div class="caption-desc font-grey-cascade">
+												<div class="form-group form-md-line-input" style='margin-bottom:5px;'>
+                                                    <input type="text" class="form-control" placeholder="请输入图片说明信息" titleid='{{v.id}}' value='{{v.title}}'> 
+                                                    <span class="help-block">图片说明信息...</span>
+                                                </div>
+											</div>
+                                        </div>
+                                    </div>
+                                    <div class="portlet-body">
+                                        <div class="mt-element-overlay">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="mt-overlay-1 mt-scroll-up"  >
+                                                        <img ng-src="{{v.thumb}}">
+                                                        <div class="mt-overlay">
+                                                            <ul class="mt-info">
+                                                                <li>
+                                                                    <a class="btn default btn-outline" href="{{v.thumb}}" target="_blank" title='查看原图'>
+                                                                        <i class="icon-magnifier"></i>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="btn default btn-outline" href="javascript:;" ng-click='delOne(v.id)' title='删除'>
+                                                                        <i class="icon-trash"></i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             
+                        </div>

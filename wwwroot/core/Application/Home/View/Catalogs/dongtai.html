@@ -1,0 +1,195 @@
+<include file="Inc/header" />
+	 
+	<div class='main row' style='margin-top:88px;'>
+		<include file="Inc/iTabHeader"/>
+		<!--图片列表-->
+		<?php
+		$years = D('Dongtai')->field("year")->WHERE("year > 0")->GROUP("year")->ORDER("year ASC")->SELECT();
+		$yearHtmls = array();
+
+		if($years){
+			
+			foreach($years as $v){
+				$yearHtmls[] = '<a year="'.$v['year'].'" href="javascript:void(0);" ><i></i><span>'.$v['year'].'</span></a>';
+			}
+			$yearHtml = implode('',$yearHtmls);
+		}
+		?>
+		<div class="itabTxtList il2" style="background-color:#f5f5f5;overflow:hidden;padding:80px 0px;">
+			<div class="dongtaiCon">
+				<h2>{$catalog[title]}</h2>
+				<div class="clockLine">
+					{$yearHtml}
+				</div>
+			</div>
+			<div class='dtDetail' style='display:none'>
+				<div class='dtdTitle'><span id='ny'></span>年大事记</div>
+				<ul class='dtdul'>
+				<?php
+				$row=0;
+				$arcs = D('Dongtai')->field('cdate,title,intro,id,year')->SELECT();
+				if($arcs) foreach($arcs as $v){
+				?>
+					<li yearitem='{$v.year}'  class='yyright2'>
+						<a href='{:arcHref($v["id"],39)}'>
+							<span class='ddatetime'><?=date("m/d",$v['cdate'])?></span>
+							<div class='dintro'>{$v.title}</div>
+							<div class='dintro2'>{$v.intro}</div>
+							<span href='' class='dbtn22'>阅读更多</span>
+						</a> 
+					</li>
+				<?php } ?>
+				</ul>
+			</div>
+		</div>
+ </div> 
+ <script>
+ function initaClock(){
+	var len = $("[year]").length;
+	//设置4个clock
+	var jg = Math.ceil(len / 4);
+ 
+	var c1 = 0;
+	var c2 = c1+jg;
+	var c3 = c2+jg;
+	var c4 = len-1;
+	$("[year]").removeClass('clocka');
+	$("[year]").eq(c1).addClass('clocka');
+	$("[year]").eq(c2).addClass('clocka');
+	$("[year]").eq(c3).addClass('clocka');
+	$("[year]").eq(c4).addClass('clocka');
+	var w = 0;
+	var bw = 86 * 4;
+	var iw = (len - 4 ) *8;
+	var sy = parseInt($(".clockLine").width()) - bw - iw;
+	var mr = parseInt(sy / (len-1));
+	$("[year]").css('marginRight',mr);
+	$("[year]").last().css('marginRight',0);
+ 
+}
+$(function(){
+	initaClock();
+});
+len -= 2; </script>
+ <style>
+ .dtdul li:hover{
+	background-color:#124f90;
+ }
+.dbtn22{
+	padding:0px;
+	width:94px;
+	height:36px;
+	text-align:center;
+	line-height:36px;
+	background-color:#62abf6;
+	color:#FFFFFF;
+	border-radius:3px;
+	margin-left:20px;
+	display:block;
+}
+.dtdul a{
+	padding:26px 20px;
+	display:block;
+}
+ .dintro2{
+	color:#FFFFFF;
+	line-height:22px;
+	padding:10px 0px;
+	padding-right:10px;
+	font-size:12px;
+ }
+ .dtdul .dintro{
+	width:180px;
+	line-height:24px;
+	color:#FFFFFF;
+	border-bottom:1px solid #c08326;
+	padding-bottom:10px;
+ }
+ .ddatetime{
+	height:32px;
+	color:#FFFFFF;
+	font-size:32px;
+	font-family:'微软雅黑';
+ }
+ .dtDetail{
+	padding:42px;
+ }
+ .dtdTitle{
+	font-size:38px;
+	font-weight:800;
+	color:#62abf6;
+	font-size:28px;
+	font-family:'微软雅黑';
+	
+	height:84px;
+	line-height:84px;
+	 
+	border-bottom:3px solid #124f90;
+	
+ }
+  .dtdTitle span{
+	font-size:44px;
+	
+  }
+  .dtdul{
+	width:1196px;
+	padding:0px;
+	
+  }
+.dtdul li{
+ 
+	margin:0px;
+	float:left;
+	width:299px;
+	height:246px;
+	 
+	background-color:#cbcbcb;
+}
+.clocka.cur{
+	background-image: url(/public/images/clock_select.png);
+	height:19px;
+	margin-top:28px;
+}
+.clocka.cur span{
+	top:-80px;
+	font-size:32px;
+	color:#f1a436;
+}
+.clocka span{
+	font-family:'微软雅黑';
+}
+ </style>
+ <script>
+ var nowYear = '';
+ function chooseYear(nowYear){
+	$("[year]").removeClass('cur');
+ 
+	$("[year='"+nowYear+"']").addClass('cur');
+	$("#ny").html(nowYear);
+	$(".dtDetail").show();
+	$("[yearitem]").hide();
+	$("[yearitem='"+nowYear+"']").show(); 
+ }
+$(function(){
+	$("[year]").click(function(){
+		var year = $(this).attr('year');
+		chooseYear(year);
+	});
+	
+});
+ </script>
+<include file="Inc/footer" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+

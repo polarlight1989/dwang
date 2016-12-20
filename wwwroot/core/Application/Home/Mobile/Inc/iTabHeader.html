@@ -1,0 +1,46 @@
+<span class='teltab'>
+	&nbsp;&nbsp; <?=D('Config')->show('tel')?>
+</span>
+<!-- 头部 -->
+<div class='itabHeader' style='background-color:#d7d7d7;'>
+	<div class='col-md-3 ih1' style='width:200px;'>
+				<?php
+				 
+				$p = D('Catalogs')->WHERE(array('id'=>$catalog['pid']))->find();
+				$p['title'] = C('LANG')=='zh'?$p['title']:$p[C('LANG').'title'];
+				echo $p['title'];
+				?>
+			</div>
+
+	 
+			
+			<?php  
+			if($catalog['level'] == 2){
+				$catas = D('Catalogs')->WHERE("  pid = $catalog[pid]")->select();
+
+				if($catas) foreach($catas as $v) {
+
+			?>
+			<div class='col-md-3 ih2 '  style='text-align:center;;width:120px;background-color: <?=$catalog['id']==$v['id']?'':'#cdcdcd'?>'>
+				<a href='{$v.id}' style='color:#FFFFFF;'>{$v.title}</a> 
+			</div>
+			<?php } }else{ ?>
+			<div class='col-md-3 ih2' style='text-align:center;;width:120px;'>
+				{$catalog.title}
+			</div>
+			<?php
+			 }
+			if($iTabChange){
+			?>
+			<div class="col-md-6 ih3" id="ih3" style="width:936px;">
+				 <a href="javascript:void(0)"  class="icon_list cur"><img src="/public/images/icon_listtxt.png"></a>
+				 <a href="javascript:void(0)" class="icon_list  "><img src="/public/images/icon_listpic.png"></a>
+			</div>
+			<?php } ?>
+			<div class='floatMap' style='right:<?=$iTabChange?'70':'5'?>px;'>
+				<a href='' class='fMap'></a>
+				<a href="" class='fTxt'><?=getLang('We Are In The World')?></a>
+				<span href="" class="fSel"><select style='padding:3px;' selectArea><option   value='1' selected>{:getLang('SELECTION REGION')}</option>{:getAreaOptions()}</select></span>
+			</div>
+		</div>
+		<div style='clear:both;'></div>

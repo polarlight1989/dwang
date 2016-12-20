@@ -1,0 +1,60 @@
+<include file="Inc/header" />
+<div class='main row' style='margin-top:88px;'>
+		<include file="Inc/iTabHeader"/>
+		<?php
+		$data = D('Areas')->WHERE(array('lang'=>C('LANG')))->SELECT();
+
+		?>
+		<!-- 文字列表 -->
+		<div class="itabTxtList il2" style="background-color:#f5f5f5;overflow:hidden;padding:80px 0px;">
+			<div class="quyuList">
+				<h2>
+					{:lang('Select Country')}
+				</h2>
+				<div class="qylBox">
+				
+					<ul class="qyaul">
+					<?php
+					$row = 0;
+				if($data) foreach($data as $v){ 
+				?>
+						<li class="<?=$row++==0?'cur':''?>">{$v.title}<i></i></li>
+						<?php } ?>
+					</ul>
+					<?php
+					$row = 0;
+				if($data) foreach($data as $v){
+					$rules = array_filter(explode("\n",$v['rules']));
+					
+				?>
+				<div class="qybCon" style="<?=$row++==0?'display:nlock':'display:none'?>">
+				<?php
+					foreach($rules as $rule){
+						$r = explode("|",$rule);
+				?>
+						<a href="<?=$r[1]?$r[1]:'javascript:void(0);'?>" <?=$r[1]?'target="_blank"':''?> ><?=$r[0]?></a>
+						<?php }  ?>
+					</div>
+					<?php } ?> 
+					
+
+				</div>
+				
+			</div>
+		</div>
+ </div>
+ <script>
+$(function(){
+	$(".qyaul").children('li').bind('mouseover',function(){
+		var name = $(this).html();
+		$(".qyaul").children('li').removeClass('cur');
+		$(this).addClass('cur');
+		var ind = $(this).index();
+		$(".qybCon").hide();
+		$(".qybCon").eq(ind).show();
+	});
+
+});
+
+ </script>
+<include file="Inc/footer" /> 

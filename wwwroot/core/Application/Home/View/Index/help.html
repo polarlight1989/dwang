@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body style='font-family: "微软雅黑"''>
+	<style>
+		.w1200{
+			width:1200px;
+			margin:0px auto;
+		}
+		.dd td{
+			height:30px;
+			line-height: 30px;
+			padding:15px;
+		}
+	</style>
+	<div class='w1200'>
+	<?php
+		$utime = getMillisecond();
+		 
+	?>
+	<div style='background-color: #ddd;margin:20px 0px;padding:15px;'>
+		<table class='table'>
+			<tr  >
+				<td width='150px'>请求地址</td>
+				<td><?='http://'.$_SERVER['HTTP_HOST']."/api/"?></td>
+			</tr>
+			<tr>
+				<td>参数说明</td>
+				<td>TIMESTAMP 【必须】: 13位带毫秒unix时间戳<br/> ACTION 【必须】: 参考下表<br/> KEY【必须】 : (TIMESTAMP + API_KEY + ACTION) 的 MD5</td>
+			</tr>
+			<tr>
+				<td>返回值</td>
+				<td>errormsg 若存在则出错</td>
+			</tr>
+		</table> 
+	</div>
+		<table class="table table-striped">
+  			<tr>
+  				<th>名称</th>
+  				<th>所需参数</th>
+  				<th>回调</th> 
+  				<th>示例</th> 
+  			</tr>
+  			<tr>
+  				<td>类目列表</td>
+  				<td>
+  					<table class='table-bordered dd' style='width:100%;'>
+  						<tr>
+  							<td style='width:200px;'>ACTION :</td>
+  							<td>CATALOG_LIST</td>
+  						</tr>
+ 
+  						 
+  					</table>
+  				</td>
+  				<td>{data:[{'id':'栏目ID','title':'栏目标题'}],count:栏目数量}</td>
+  				<?php
+  				
+  				$u = array();
+  				$u['TIMESTAMP'] = getMillisecond();
+  				$u['ACTION'] = 'CATALOG_LIST'; 
+  				$u['KEY'] = apikey($u); 
+  				$url = "?".http_build_query($u);
+  				?>
+  				<td>{:showParams($u)}<a href='{$url}' target="_blank">点击查看返回值</a></td>
+  			</tr>
+  			<tr>
+  				<td>文档列表</td>
+  				<td>
+  					<table class='table-bordered dd' style='width:100%;'>
+  						<tr>
+  							<td style='width:200px;'>ACTION :</td>
+  							<td>ARC_LIST</td>
+  						</tr>
+  						<tr>
+  							<td>CATALOG_ID :</td>
+  							<td>栏目ID</td>
+  						</tr>
+  						<tr>
+  							<td>PAGE :</td>
+  							<td>页码，默认1</td>
+  						</tr>
+  						<tr>
+  							<td>LENGTH :</td>
+  							<td>分页长度，默认10</td>
+  						</tr>
+  						<tr>
+  							<td>FIELD :</td>
+  							<td>所需字段，用 | 分隔，说明如下<br/>id:文章id<br/>title:标题<br/>intro:简介<br/>cdate:添加时间<br/>thumb:缩略图<br/>video:视频地址<br/>content:内容<br/></td>
+  						</tr>
+  					</table>
+  				</td>
+  				<td>{'data':[{'FIELD名称':'FIELD值'....}],'count':'总记录数'}</td>
+  				<?php
+				function showParams($p){
+  					echo "参数：<br/>";
+  					foreach($p as $k=>$v){
+  						echo "$k : $v <br/>";
+  					}
+  				}
+  				?>
+  				<?php
+  				
+  				$u = array();
+  				$u['TIMESTAMP'] = getMillisecond();
+  				$u['ACTION'] = 'ARC_LIST';
+  				$u['CATALOG_ID'] = 60;
+  				$u['KEY'] = apikey($u);
+  				$u['FIELD'] = "id|title|intro";
+  				$url = "?".http_build_query($u);
+  				?>
+  				<td>{:showParams($u)}<a href='{$url}' target="_blank">点击查看返回值</a></td>
+  			</tr>
+        <tr>
+          <td>推送数据</td>
+          <td>
+            <table class='table-bordered dd' style='width:100%;'>
+              <tr>
+                <td style='width:200px;'>ACTION :</td>
+                <td>PUSH_DATA</td>
+              </tr>
+              <tr>
+                <td>PUSH_ID :</td>
+                <td>推送位置ID
+                <br/>
+                当前推送位ID如下：
+                <br/>
+                <?php
+                $a = D('Pushs')->SELECT();
+                if($a) foreach($a as $v){
+                  echo $v['name']." : ".$v['id']."<br/>";
+                }
+                ?>
+                </td>
+              </tr>
+              <tr>
+                <td>PUSH_GROUP :</td>
+                <td>推送用户组，当前用户的group_id
+                <br/>
+                 
+                </td>
+              </tr>
+              <tr>
+                <td>PAGE :</td>
+                <td>页码，默认1</td>
+              </tr>
+              <tr>
+                <td>LENGTH :</td>
+                <td>分页长度，默认10</td>
+              </tr>
+              <tr>
+                <td>FIELD :</td>
+                <td>所需字段，用 | 分隔，说明如下<br/>id:文章id<br/>title:标题<br/>intro:简介<br/>cdate:添加时间<br/>thumb:缩略图<br/>video:视频地址<br/>content:内容<br/></td>
+              </tr>
+            </table>
+          </td>
+          <td>{'data':[{'FIELD名称':'FIELD值'....}],'count':'总记录数'}</td>
+          <?php
+ 
+          ?>
+          <?php
+          
+          $u = array();
+          $u['TIMESTAMP'] = getMillisecond();
+          $u['ACTION'] = 'PUSH_DATA';
+          $u['CATALOG_ID'] = 60;
+          $u['PUSH_ID'] = '2';
+          $u['PUSH_GROUP'] = '2';
+          $u['KEY'] = apikey($u);
+          $u['FIELD'] = "id|title|intro";
+          $url = "?".http_build_query($u);
+          ?>
+          <td>{:showParams($u)}<a href='{$url}' target="_blank">点击查看返回值</a></td>
+        </tr>
+  			<tr>
+  				<td>单个文档</td>
+  				<td>
+  					<table class='table-bordered dd' style='width:100%;'>
+  						<tr>
+  							<td style='width:200px;'>ACTION :</td>
+  							<td>ARC_DETAIL</td>
+  						</tr>
+  						<tr>
+  							<td>ID :</td>
+  							<td>文档ID</td>
+  						</tr>
+  						 
+  						<tr>
+  							<td>FIELD :</td>
+  							<td>同文档列表</td>
+  						</tr>
+  					</table>
+  				</td>
+  				<td>[{'FIELD名称':'FIELD值'....}]</td>
+  				<?php
+  				
+  				$u = array();
+  				$u['TIMESTAMP'] = getMillisecond();
+  				$u['ACTION'] = 'ARC_DETAIL';
+  				$u['ID'] = 41;
+  				$u['KEY'] = apikey($u);
+  				$u['FIELD'] = "id|title|intro|content|thumb";
+  				$url = "?".http_build_query($u);
+  				?>
+  				<td>{:showParams($u)}<a href='{$url}' target="_blank">点击查看返回值</a></td>
+  			</tr>
+  			<tr>
+  				<td>用户验证</td>
+  				<td>
+  					<table class='table-bordered dd' style='width:100%;'>
+  						<tr>
+  							<td style='width:200px;'>ACTION :</td>
+  							<td>USER_FIND</td>
+  						</tr>
+  						<tr>
+  							<td>NAME :</td>
+  							<td>登录名</td>
+  						</tr>
+  						<tr>
+  							<td>PWD :</td>
+  							<td>登陆密码</td>
+  						</tr>
+
+  					</table>
+  				</td>
+  				<td>{'id':'用户ID','name':'用户名','cdate':'注册时间','phone':'手机号码','group_id':'用户组ID'}</td>
+
+  				<?php
+  				
+  				$u = array();
+  				$u['TIMESTAMP'] = getMillisecond();
+  				$u['ACTION'] = 'USER_FIND';
+  				$u['NAME'] = 'test';
+  				$u['PWD'] = 'test';
+  				$u['KEY'] = apikey($u); 
+  				$url = "?".http_build_query($u);
+  				?>
+  				<td>{:showParams($u)}<a href='{$url}' target="_blank">点击查看返回值</a></td>
+  			</tr>
+		</table>
+	</div>
+</body>
+</html>
