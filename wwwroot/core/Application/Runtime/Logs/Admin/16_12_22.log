@@ -1,0 +1,1609 @@
+[ 2016-12-22T11:43:48+08:00 ] 106.8.223.220 /admina/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-12-22T11:43:48+08:00 ] 106.8.223.220 /admina/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'sys_name' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 76 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-12-22T11:43:51+08:00 ] 106.8.223.220 /admina/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'sys_name' LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 76 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-12-22T11:43:55+08:00 ] 106.8.223.220 /admina/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'sys_name' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'sys_name' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-12-22T11:43:55+08:00 ] 106.8.223.220 /admina/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 16 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-12-22T11:43:55+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Pushs&_a=select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `pushs` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `pushs`  [ RunTime:0.0001s ]
+
+[ 2016-12-22T11:43:55+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=UsersGroup&_a=select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `users_group` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `users_group`  [ RunTime:0.0015s ]
+
+[ 2016-12-22T11:43:55+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=tools.header
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-12-22T11:43:55+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Catalogs&_a=select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `catalogs`  [ RunTime:0.0007s ]
+
+[ 2016-12-22T11:43:55+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=tools.sidebar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0025s ]
+NOTIC: [2] Missing argument 1 for Common\Model\CatalogsModel::tree(), called in D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php on line 12 and defined D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\CatalogsModel.class.php 第 29 行.
+SQL: SELECT `id`,`title`,`pid`,`level`,`actionurl` FROM `catalogs`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-12-22T11:43:55+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=inc.datatable_page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-12-22T11:43:55+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=directive.datatable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-12-22T11:43:55+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Users&_a=ajaxTable&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `users` LIMIT 0,10   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-12-22T11:44:00+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=catalogs.arcs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-12-22T11:44:01+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=ajaxTable&catalog_id=60&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: pushdata D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 12 行.
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `arcs` WHERE `catalog_id` = 60 LIMIT 0,10   [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 60 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-12-22T11:44:04+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=arcs.detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-12-22T11:44:04+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Catalogs&_a=selectOptions&type=arcs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`title`,`pid`,`level` FROM `catalogs`  [ RunTime:0.0010s ]
+
+[ 2016-12-22T11:44:04+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=directive.fgImgUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-12-22T11:44:04+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=getOne&id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 183 行.
+SQL: SELECT * FROM `arcs` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-12-22T11:44:04+08:00 ] 106.8.223.220 /admina/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 16 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-12-22T11:44:08+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=s&_m=Arcs&_a=rsave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: validate D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `arcs` SET `catalog_id`='60',`title`='职工文化',`intro`='职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介',`thumb`='/Uploads/9653ca08/c49d724f/edcc6545/d99f70c2/25102.jpg',`content`='<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	一、<span style=\"font-weight:700;\">职工文化</span>建设是职工提高职业技能素质、丰富精神文化生活、激发劳动热情和创造活力的重要载体，企业文化建设是体现企业形象特点、增强凝聚力、提高竞争力的必要手段。（《中国工会十五大报告》）[1]<a name=\"ref_[1]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	二、加强职工文化体育教育等阵地建设，推广先进<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a>和<span style=\"font-weight:700;\">职工文化</span>，不断满足职工群众的精神文化需求。（《中国工会十六大报告》）[2]<a name=\"ref_[2]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	三、对职工进行思想政治教育，鼓励支持职工学习文化科学技术和管理知识，开展健康的文化体育活动。推进<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a><span style=\"font-weight:700;\">职工文化</span>建设，办好<a target=\"_blank\" href=\"http://baike.baidu.com/view/13759.htm\" style=\"color:#136EC2;\">工会</a>文化、教育、体育事业。（《中国工会章程》 2013年10月22日通过）[3]<a name=\"ref_[3]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	四、建设育人化人的先进<span style=\"font-weight:700;\">职工文化</span>，将社会主义核心价值观艺术地融入广大职工喜闻乐见的文化活动；用好用活工作载体，发挥新闻媒体特别是工人日报、工人出版社、中工网等工会宣传阵地作用，大力推动传统媒体和新兴媒体融合发展，形成合力，使社会主义核心价值观宣传深入基层、贴近职工。（全总《关于在广大职工中培育和践行社会主义核心价值观的实施意见》2014年11月7日）[4]<a name=\"ref_[4]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	五、要创新思想政治工作方式方法，加强人文关怀和心理疏导，打造健康文明、昂扬向上的<span style=\"font-weight:700;\">职工文化</span>，丰富职工精神文化生活，不断满足广大职工群众精神文化需求。（<span style=\"font-weight:700;\">习近平</span>在庆祝“五一”国际劳动节暨表彰全国劳动模范和先进工作者大会上的讲话，2015年4月28日）[5-6]<a name=\"ref_[5-6]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	六、引导广大职工弘扬劳模精神、劳动精神、工人阶级伟大品格，增强主人翁意识，打造健康文明、昂扬向上的职工文化。（中共中央关于加强和改进党的群团工作的意见，2015年7月10日）[6]<a name=\"ref_[6]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	企业职工文化是与企业文化相伴而生的一个概念。在一个企业中，<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a>是管理者群体的文化，企业职工文化是职工群众的文化。
+</div>',`cdate`='1481456808',`mdate`='1482378248',`push_id`='1,2,3,4,5',`push_group`='all',`pushdate`='',`video`='/public/videojs/oceans-clip1.mp4' WHERE `id` = 53 [ RunTime:0.0020s ]
+
+[ 2016-12-22T11:44:09+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=ajaxTable&catalog_id=60&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: pushdata D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 12 行.
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `arcs` WHERE `catalog_id` = 60 LIMIT 0,10   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 60 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-12-22T11:44:11+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=getOne&id=54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 183 行.
+SQL: SELECT * FROM `arcs` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-12-22T11:44:11+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Catalogs&_a=selectOptions&type=arcs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`title`,`pid`,`level` FROM `catalogs`  [ RunTime:0.0008s ]
+
+[ 2016-12-22T11:44:11+08:00 ] 106.8.223.220 /admina/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 16 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-12-22T11:44:15+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=s&_m=Arcs&_a=rsave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: validate D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `arcs` SET `catalog_id`='60',`title`='职工文化1',`intro`='职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介',`thumb`='/Uploads/9653ca08/c49d724f/edcc6545/d99f70c2/25102.jpg',`content`='<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	一、<span style=\"font-weight:700;\">职工文化</span>建设是职工提高职业技能素质、丰富精神文化生活、激发劳动热情和创造活力的重要载体，企业文化建设是体现企业形象特点、增强凝聚力、提高竞争力的必要手段。（《中国工会十五大报告》）[1]<a name=\"ref_[1]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	二、加强职工文化体育教育等阵地建设，推广先进<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a>和<span style=\"font-weight:700;\">职工文化</span>，不断满足职工群众的精神文化需求。（《中国工会十六大报告》）[2]<a name=\"ref_[2]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	三、对职工进行思想政治教育，鼓励支持职工学习文化科学技术和管理知识，开展健康的文化体育活动。推进<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a><span style=\"font-weight:700;\">职工文化</span>建设，办好<a target=\"_blank\" href=\"http://baike.baidu.com/view/13759.htm\" style=\"color:#136EC2;\">工会</a>文化、教育、体育事业。（《中国工会章程》 2013年10月22日通过）[3]<a name=\"ref_[3]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	四、建设育人化人的先进<span style=\"font-weight:700;\">职工文化</span>，将社会主义核心价值观艺术地融入广大职工喜闻乐见的文化活动；用好用活工作载体，发挥新闻媒体特别是工人日报、工人出版社、中工网等工会宣传阵地作用，大力推动传统媒体和新兴媒体融合发展，形成合力，使社会主义核心价值观宣传深入基层、贴近职工。（全总《关于在广大职工中培育和践行社会主义核心价值观的实施意见》2014年11月7日）[4]<a name=\"ref_[4]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	五、要创新思想政治工作方式方法，加强人文关怀和心理疏导，打造健康文明、昂扬向上的<span style=\"font-weight:700;\">职工文化</span>，丰富职工精神文化生活，不断满足广大职工群众精神文化需求。（<span style=\"font-weight:700;\">习近平</span>在庆祝“五一”国际劳动节暨表彰全国劳动模范和先进工作者大会上的讲话，2015年4月28日）[5-6]<a name=\"ref_[5-6]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	六、引导广大职工弘扬劳模精神、劳动精神、工人阶级伟大品格，增强主人翁意识，打造健康文明、昂扬向上的职工文化。（中共中央关于加强和改进党的群团工作的意见，2015年7月10日）[6]<a name=\"ref_[6]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	企业职工文化是与企业文化相伴而生的一个概念。在一个企业中，<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a>是管理者群体的文化，企业职工文化是职工群众的文化。
+</div>',`cdate`='1481456808',`mdate`='1482378254',`push_id`='1',`push_group`='all',`pushdate`='',`video`='/public/videojs/oceans-clip.mp4' WHERE `id` = 54 [ RunTime:0.0007s ]
+
+[ 2016-12-22T11:44:15+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=ajaxTable&catalog_id=60&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: pushdata D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 12 行.
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `arcs` WHERE `catalog_id` = 60 LIMIT 0,10   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 60 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-12-22T11:44:20+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=getOne&id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 183 行.
+SQL: SELECT * FROM `arcs` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-12-22T11:44:20+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Catalogs&_a=selectOptions&type=arcs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`title`,`pid`,`level` FROM `catalogs`  [ RunTime:0.0010s ]
+
+[ 2016-12-22T11:44:20+08:00 ] 106.8.223.220 /admina/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 16 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-12-22T11:44:25+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=s&_m=Arcs&_a=rsave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `arcs` SET `catalog_id`='60',`title`='职工文化',`intro`='职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介',`thumb`='/Uploads/9653ca08/c49d724f/edcc6545/d99f70c2/25102.jpg',`content`='<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	一、<span style=\"font-weight:700;\">职工文化</span>建设是职工提高职业技能素质、丰富精神文化生活、激发劳动热情和创造活力的重要载体，企业文化建设是体现企业形象特点、增强凝聚力、提高竞争力的必要手段。（《中国工会十五大报告》）[1]<a name=\"ref_[1]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	二、加强职工文化体育教育等阵地建设，推广先进<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a>和<span style=\"font-weight:700;\">职工文化</span>，不断满足职工群众的精神文化需求。（《中国工会十六大报告》）[2]<a name=\"ref_[2]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	三、对职工进行思想政治教育，鼓励支持职工学习文化科学技术和管理知识，开展健康的文化体育活动。推进<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a><span style=\"font-weight:700;\">职工文化</span>建设，办好<a target=\"_blank\" href=\"http://baike.baidu.com/view/13759.htm\" style=\"color:#136EC2;\">工会</a>文化、教育、体育事业。（《中国工会章程》 2013年10月22日通过）[3]<a name=\"ref_[3]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	四、建设育人化人的先进<span style=\"font-weight:700;\">职工文化</span>，将社会主义核心价值观艺术地融入广大职工喜闻乐见的文化活动；用好用活工作载体，发挥新闻媒体特别是工人日报、工人出版社、中工网等工会宣传阵地作用，大力推动传统媒体和新兴媒体融合发展，形成合力，使社会主义核心价值观宣传深入基层、贴近职工。（全总《关于在广大职工中培育和践行社会主义核心价值观的实施意见》2014年11月7日）[4]<a name=\"ref_[4]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	五、要创新思想政治工作方式方法，加强人文关怀和心理疏导，打造健康文明、昂扬向上的<span style=\"font-weight:700;\">职工文化</span>，丰富职工精神文化生活，不断满足广大职工群众精神文化需求。（<span style=\"font-weight:700;\">习近平</span>在庆祝“五一”国际劳动节暨表彰全国劳动模范和先进工作者大会上的讲话，2015年4月28日）[5-6]<a name=\"ref_[5-6]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	六、引导广大职工弘扬劳模精神、劳动精神、工人阶级伟大品格，增强主人翁意识，打造健康文明、昂扬向上的职工文化。（中共中央关于加强和改进党的群团工作的意见，2015年7月10日）[6]<a name=\"ref_[6]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	企业职工文化是与企业文化相伴而生的一个概念。在一个企业中，<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a>是管理者群体的文化，企业职工文化是职工群众的文化。
+</div>',`cdate`='1481456808',`mdate`='1482378265',`push_id`='1',`push_group`='all',`pushdate`='',`video`='/public/videojs/oceans-clip1.mp4' WHERE `id` = 55 [ RunTime:0.0008s ]
+
+[ 2016-12-22T11:44:26+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=ajaxTable&catalog_id=60&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: pushdata D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 12 行.
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `arcs` WHERE `catalog_id` = 60 LIMIT 0,10   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 60 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-12-22T12:04:46+08:00 ] 106.8.223.220 /admina/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 16 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-12-22T12:04:46+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Pushs&_a=select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `pushs` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `pushs`  [ RunTime:0.0002s ]
+
+[ 2016-12-22T12:04:46+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=UsersGroup&_a=select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `users_group` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `users_group`  [ RunTime:0.0009s ]
+
+[ 2016-12-22T12:04:46+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=tools.header
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-12-22T12:04:46+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=inc.datatable_page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-12-22T12:04:46+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=tools.sidebar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0033s ]
+NOTIC: [2] Missing argument 1 for Common\Model\CatalogsModel::tree(), called in D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php on line 12 and defined D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\CatalogsModel.class.php 第 29 行.
+SQL: SELECT `id`,`title`,`pid`,`level`,`actionurl` FROM `catalogs`  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-12-22T12:04:46+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Catalogs&_a=select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `catalogs`  [ RunTime:0.0007s ]
+
+[ 2016-12-22T12:04:46+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=directive.datatable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2016-12-22T12:04:46+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Users&_a=ajaxTable&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `users` LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-12-22T12:05:03+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=catalogs.arcs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-12-22T12:05:03+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=ajaxTable&catalog_id=60&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: pushdata D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 12 行.
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `arcs` WHERE `catalog_id` = 60 LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 60 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-12-22T12:05:09+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=arcs.detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-12-22T12:05:10+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=directive.fgImgUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-12-22T12:05:10+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=getOne&id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 183 行.
+SQL: SELECT * FROM `arcs` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-12-22T12:05:10+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Catalogs&_a=selectOptions&type=arcs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`title`,`pid`,`level` FROM `catalogs`  [ RunTime:0.0009s ]
+
+[ 2016-12-22T12:05:10+08:00 ] 106.8.223.220 /admina/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 16 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-12-22T12:06:40+08:00 ] 106.8.223.220 /admina/index.php?g=Admin&c=Data&a=p&_m=Uploads&_a=upload&type=uploadfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-12-22T12:06:42+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=s&_m=Arcs&_a=rsave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: validate D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `arcs` SET `catalog_id`='60',`title`='职工文化',`intro`='职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介',`thumb`='/Uploads/582f3732/15edea40/4481ef6b/9bd775f4/27624.jpg',`content`='<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	一、<span style=\"font-weight:700;\">职工文化</span>建设是职工提高职业技能素质、丰富精神文化生活、激发劳动热情和创造活力的重要载体，企业文化建设是体现企业形象特点、增强凝聚力、提高竞争力的必要手段。（《中国工会十五大报告》）[1]<a name=\"ref_[1]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	二、加强职工文化体育教育等阵地建设，推广先进<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a>和<span style=\"font-weight:700;\">职工文化</span>，不断满足职工群众的精神文化需求。（《中国工会十六大报告》）[2]<a name=\"ref_[2]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	三、对职工进行思想政治教育，鼓励支持职工学习文化科学技术和管理知识，开展健康的文化体育活动。推进<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a><span style=\"font-weight:700;\">职工文化</span>建设，办好<a target=\"_blank\" href=\"http://baike.baidu.com/view/13759.htm\" style=\"color:#136EC2;\">工会</a>文化、教育、体育事业。（《中国工会章程》 2013年10月22日通过）[3]<a name=\"ref_[3]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	四、建设育人化人的先进<span style=\"font-weight:700;\">职工文化</span>，将社会主义核心价值观艺术地融入广大职工喜闻乐见的文化活动；用好用活工作载体，发挥新闻媒体特别是工人日报、工人出版社、中工网等工会宣传阵地作用，大力推动传统媒体和新兴媒体融合发展，形成合力，使社会主义核心价值观宣传深入基层、贴近职工。（全总《关于在广大职工中培育和践行社会主义核心价值观的实施意见》2014年11月7日）[4]<a name=\"ref_[4]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	五、要创新思想政治工作方式方法，加强人文关怀和心理疏导，打造健康文明、昂扬向上的<span style=\"font-weight:700;\">职工文化</span>，丰富职工精神文化生活，不断满足广大职工群众精神文化需求。（<span style=\"font-weight:700;\">习近平</span>在庆祝“五一”国际劳动节暨表彰全国劳动模范和先进工作者大会上的讲话，2015年4月28日）[5-6]<a name=\"ref_[5-6]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	六、引导广大职工弘扬劳模精神、劳动精神、工人阶级伟大品格，增强主人翁意识，打造健康文明、昂扬向上的职工文化。（中共中央关于加强和改进党的群团工作的意见，2015年7月10日）[6]<a name=\"ref_[6]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	企业职工文化是与企业文化相伴而生的一个概念。在一个企业中，<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a>是管理者群体的文化，企业职工文化是职工群众的文化。
+</div>',`cdate`='1481456808',`mdate`='1482379602',`push_id`='1',`push_group`='all',`pushdate`='',`video`='/public/videojs/oceans-clip1.mp4' WHERE `id` = 53 [ RunTime:0.0009s ]
+
+[ 2016-12-22T12:06:43+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=ajaxTable&catalog_id=60&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: pushdata D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 12 行.
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `arcs` WHERE `catalog_id` = 60 LIMIT 0,10   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 60 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-12-22T12:06:47+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=getOne&id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 183 行.
+SQL: SELECT * FROM `arcs` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-12-22T12:06:47+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Catalogs&_a=selectOptions&type=arcs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`title`,`pid`,`level` FROM `catalogs`  [ RunTime:0.0007s ]
+
+[ 2016-12-22T12:06:47+08:00 ] 106.8.223.220 /admina/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 16 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-12-22T12:06:52+08:00 ] 106.8.223.220 /admina/index.php?g=Admin&c=Data&a=p&_m=Uploads&_a=upload&type=uploadfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-12-22T12:06:54+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=s&_m=Arcs&_a=rsave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `arcs` SET `catalog_id`='60',`title`='职工文化',`intro`='职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介职工文化简介',`thumb`='/Uploads/740dc9ac/ee5a39cf/322751b2/cb209240/16922.jpg',`content`='<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	一、<span style=\"font-weight:700;\">职工文化</span>建设是职工提高职业技能素质、丰富精神文化生活、激发劳动热情和创造活力的重要载体，企业文化建设是体现企业形象特点、增强凝聚力、提高竞争力的必要手段。（《中国工会十五大报告》）[1]<a name=\"ref_[1]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	二、加强职工文化体育教育等阵地建设，推广先进<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a>和<span style=\"font-weight:700;\">职工文化</span>，不断满足职工群众的精神文化需求。（《中国工会十六大报告》）[2]<a name=\"ref_[2]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	三、对职工进行思想政治教育，鼓励支持职工学习文化科学技术和管理知识，开展健康的文化体育活动。推进<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a><span style=\"font-weight:700;\">职工文化</span>建设，办好<a target=\"_blank\" href=\"http://baike.baidu.com/view/13759.htm\" style=\"color:#136EC2;\">工会</a>文化、教育、体育事业。（《中国工会章程》 2013年10月22日通过）[3]<a name=\"ref_[3]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	四、建设育人化人的先进<span style=\"font-weight:700;\">职工文化</span>，将社会主义核心价值观艺术地融入广大职工喜闻乐见的文化活动；用好用活工作载体，发挥新闻媒体特别是工人日报、工人出版社、中工网等工会宣传阵地作用，大力推动传统媒体和新兴媒体融合发展，形成合力，使社会主义核心价值观宣传深入基层、贴近职工。（全总《关于在广大职工中培育和践行社会主义核心价值观的实施意见》2014年11月7日）[4]<a name=\"ref_[4]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	五、要创新思想政治工作方式方法，加强人文关怀和心理疏导，打造健康文明、昂扬向上的<span style=\"font-weight:700;\">职工文化</span>，丰富职工精神文化生活，不断满足广大职工群众精神文化需求。（<span style=\"font-weight:700;\">习近平</span>在庆祝“五一”国际劳动节暨表彰全国劳动模范和先进工作者大会上的讲话，2015年4月28日）[5-6]<a name=\"ref_[5-6]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	六、引导广大职工弘扬劳模精神、劳动精神、工人阶级伟大品格，增强主人翁意识，打造健康文明、昂扬向上的职工文化。（中共中央关于加强和改进党的群团工作的意见，2015年7月10日）[6]<a name=\"ref_[6]_11290879\"></a>?
+</div>
+<div class=\"para\" label-module=\"para\" style=\"font-size:14px;color:#333333;margin-bottom:15px;text-indent:2em;line-height:24px;zoom:1;font-family:arial, 宋体, sans-serif;white-space:normal;\">
+	企业职工文化是与企业文化相伴而生的一个概念。在一个企业中，<a target=\"_blank\" href=\"http://baike.baidu.com/view/4152.htm\" style=\"color:#136EC2;\">企业文化</a>是管理者群体的文化，企业职工文化是职工群众的文化。
+</div>',`cdate`='1481456808',`mdate`='1482379614',`push_id`='1',`push_group`='all',`pushdate`='',`video`='/public/videojs/oceans-clip1.mp4' WHERE `id` = 55 [ RunTime:0.0007s ]
+
+[ 2016-12-22T12:06:55+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=ajaxTable&catalog_id=60&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: pushdata D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 12 行.
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `arcs` WHERE `catalog_id` = 60 LIMIT 0,10   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 60 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-12-22T17:08:23+08:00 ] 106.8.223.220 /admina/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-12-22T17:08:23+08:00 ] 106.8.223.220 /admina/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'sys_name' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 76 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2016-12-22T17:08:25+08:00 ] 106.8.223.220 /admina/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'sys_name' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 76 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-12-22T17:08:27+08:00 ] 106.8.223.220 /admina/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'sys_name' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'sys_name' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-12-22T17:08:27+08:00 ] 106.8.223.220 /admina/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 16 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-12-22T17:08:27+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Pushs&_a=select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `pushs` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `pushs`  [ RunTime:0.0002s ]
+
+[ 2016-12-22T17:08:27+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Catalogs&_a=select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `catalogs`  [ RunTime:0.0004s ]
+
+[ 2016-12-22T17:08:27+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=UsersGroup&_a=select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `users_group` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `users_group`  [ RunTime:0.0008s ]
+
+[ 2016-12-22T17:08:28+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=tools.header
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-12-22T17:08:28+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=tools.sidebar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0021s ]
+NOTIC: [2] Missing argument 1 for Common\Model\CatalogsModel::tree(), called in D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php on line 12 and defined D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\CatalogsModel.class.php 第 29 行.
+SQL: SELECT `id`,`title`,`pid`,`level`,`actionurl` FROM `catalogs`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: icon D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+NOTIC: [8] Undefined index: son D:\wwwroot\dwang\wwwroot\core\Application\Runtime\Cache\Admin\b92838e26cdb773543e11ae25179dc27.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-12-22T17:08:28+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=inc.datatable_page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-12-22T17:08:28+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=directive.datatable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-12-22T17:08:28+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Users&_a=ajaxTable&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `users` LIMIT 0,10   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-12-22T17:08:30+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=ajaxTable&length=10&page=1&pushdata=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: catalog_id D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `arcs` WHERE `pushdate` > 0 LIMIT 0,10   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `pushdate` > 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-12-22T17:08:34+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Pushs&_a=ajaxTable&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `pushs` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `pushs` LIMIT 0,10   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pushs` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-12-22T17:08:36+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=pushs.detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001570s ]
+
+[ 2016-12-22T17:08:36+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Pushs&_a=getOne&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `pushs` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 183 行.
+
+[ 2016-12-22T17:08:42+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=s&_m=Pushs&_a=rsave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `pushs` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `pushs` WHERE `name` = '专题' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: id D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: content D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 27 行.
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `pushs` (`name`,`intro`,`cdate`) VALUES ('专题','专题','1482397722') [ RunTime:0.0006s ]
+
+[ 2016-12-22T17:08:43+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Pushs&_a=ajaxTable&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `pushs` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `pushs` LIMIT 0,10   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pushs` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-12-22T17:08:47+08:00 ] 106.8.223.220 /admina/?g=Admin&c=Index&a=tpl&tpl=catalogs.arcs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-12-22T17:08:47+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=ajaxTable&catalog_id=53&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: pushdata D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 12 行.
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `arcs` WHERE `catalog_id` = 53 LIMIT 0,10   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 53 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-12-22T17:38:20+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Pushs&_a=select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `pushs` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `pushs`  [ RunTime:0.0136s ]
+
+[ 2016-12-22T17:38:20+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=UsersGroup&_a=select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `users_group` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `users_group`  [ RunTime:0.0133s ]
+
+[ 2016-12-22T17:38:20+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Catalogs&_a=select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `catalogs`  [ RunTime:0.0132s ]
+
+[ 2016-12-22T17:38:21+08:00 ] 106.8.223.220 /admina/?m=Manager&c=Data&a=g&_m=Arcs&_a=ajaxTable&catalog_id=60&length=10&page=1&start=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0179s ]
+NOTIC: [8] Undefined index: pushdata D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 12 行.
+NOTIC: [8] Undefined index: fields D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 117 行.
+NOTIC: [8] Undefined index: searchparams D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 131 行.
+NOTIC: [8] Undefined index: map D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 138 行.
+SQL: SELECT * FROM `arcs` WHERE `catalog_id` = 60 LIMIT 0,10   [ RunTime:0.0139s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 60 LIMIT 1   [ RunTime:0.0002s ]
+

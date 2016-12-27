@@ -1,0 +1,50 @@
+[ 2016-12-23T12:52:45+08:00 ] 180.153.212.13 /admina/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'sys_name' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 76 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-12-23T15:31:45+08:00 ] 140.207.185.111 /admina/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'sys_name' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wwwroot\dwang\wwwroot\core\Application\Admin\Controller\IndexController.class.php on line 76 and defined D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+

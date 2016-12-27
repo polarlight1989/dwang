@@ -56,8 +56,8 @@ class IndexController extends Controller {
             
             $catalog_id = $p['CATALOG_ID'] ? $p['CATALOG_ID'] : '';
             if(!$field) jsonError('字段为空');
-            $map['catalog_id'] = $catalog_id;
-            $result = D('Arcs')->WHERE($map)->field($field)->PAGE($page,$length)->selectCount(); 
+            if($catalog_id) $map['catalog_id'] = $catalog_id;
+            $result = D('Arcs')->ORDER('cdate desc')->WHERE($map)->field($field)->PAGE($page,$length)->selectCount(); 
             $result['status'] = 1; 
         }
         //文章详情

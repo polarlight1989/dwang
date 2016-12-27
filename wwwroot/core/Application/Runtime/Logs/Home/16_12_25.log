@@ -1,0 +1,770 @@
+[ 2016-12-25T08:39:39+08:00 ] 183.232.175.3 /api/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-12-25T09:38:00+08:00 ] 183.232.175.2 /api/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-12-25T19:24:32+08:00 ] 221.205.152.207 /api/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: PAGE D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined index: FIELD D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0506s ]
+SQL: SELECT `id`,`title` FROM `catalogs`  [ RunTime:0.0126s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `catalogs` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2016-12-25T19:24:33+08:00 ] 221.205.152.207 /api/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: PAGE D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0522s ]
+SQL: SELECT `id`,`title`,`intro` FROM `arcs` WHERE `catalog_id` = 53 LIMIT 0,10   [ RunTime:0.0139s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 53 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-12-25T19:24:33+08:00 ] 221.205.152.207 /api/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: PAGE D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0178s ]
+SQL: SELECT `id`,`title`,`intro` FROM `arcs` WHERE `catalog_id` = 54 LIMIT 0,10   [ RunTime:0.0127s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 54 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2016-12-25T19:36:12+08:00 ] 101.226.61.207 /api/?help=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `pushs` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `pushs`  [ RunTime:0.0024s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-12-25T19:36:16+08:00 ] 221.205.152.207 /api/?help=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `pushs` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pushs`  [ RunTime:0.0022s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-12-25T19:37:03+08:00 ] 221.205.152.207 /api/?TIMESTAMP=1482665776414&ACTION=CATALOG_LIST&KEY=30B63EAAF921BFFC9E39564800671833
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: PAGE D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined index: FIELD D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `catalogs` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`title` FROM `catalogs`  [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `catalogs` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-12-25T20:50:20+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670284092&ACTION=ARC_LIST&PAGE=1&CATALOG_ID=54&KEY=06C72AB627538C0D460F6C6421A0E71C&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb` FROM `arcs` WHERE `catalog_id` = 54 LIMIT 0,10   [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 54 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-12-25T20:50:20+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670284103&ACTION=ARC_LIST&PAGE=1&CATALOG_ID=56&KEY=9139E986C1EB01B06EA80CA1911F1ABD&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb` FROM `arcs` WHERE `catalog_id` = 56 LIMIT 0,10   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 56 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-12-25T20:50:20+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670284077&ACTION=ARC_LIST&PAGE=1&CATALOG_ID=53&KEY=B48EDBFFA6F82307A2480214EC1DD915&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE `catalog_id` = 53 LIMIT 0,10   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 53 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-12-25T20:50:20+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670284098&ACTION=ARC_LIST&PAGE=1&CATALOG_ID=55&KEY=D241DA56A033C3D3FB34B60FE88D194E&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb` FROM `arcs` WHERE `catalog_id` = 55 LIMIT 0,10   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 55 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-12-25T20:50:20+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670284084&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=1&PUSH_GROUP=1&PAGE=1&KEY=301C411C016F66F1F4CE3EA05AF969EF&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('1',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('1',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-12-25T20:50:20+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670284108&ACTION=ARC_LIST&PAGE=1&CATALOG_ID=57&KEY=0D12FBAAAFAC2E4082515688AD8698C5&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb` FROM `arcs` WHERE `catalog_id` = 57 LIMIT 0,10   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 57 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-12-25T20:50:20+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670284113&ACTION=ARC_LIST&PAGE=1&CATALOG_ID=58&KEY=94145DC580D0268DC568B0422C0EF1B6&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb` FROM `arcs` WHERE `catalog_id` = 58 LIMIT 0,10   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 58 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2016-12-25T20:50:20+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670284123&ACTION=ARC_LIST&PAGE=1&CATALOG_ID=60&KEY=58489E697E130D84AE7507F6B7A84761&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb` FROM `arcs` WHERE `catalog_id` = 60 LIMIT 0,10   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 60 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-12-25T20:50:20+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670284118&ACTION=ARC_LIST&PAGE=1&CATALOG_ID=59&KEY=A0CD719DF80ED1D8944A17080CE7C790&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb` FROM `arcs` WHERE `catalog_id` = 59 LIMIT 0,10   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 59 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-12-25T20:50:20+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670284124&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=1&PUSH_GROUP=1&PAGE=1&KEY=C81B4564B3E5E31A1AA9DE81F1B3EF8E&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('1',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('1',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-12-25T20:50:27+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670292832&ACTION=ARC_DETAIL&ID=41&USER_ID=2&KEY=31F20FC62512B2EC9C18A3E18E3D91EA&FIELD=id%7Ctitle%7Cintro%7Ccontent%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: PAGE D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SELECT `id`,`title`,`intro`,`content`,`thumb` FROM `arcs` LIMIT 0,10   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Common\Model\VisitLogsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\VisitLogsModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\VisitLogsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\VisitLogsModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `visit_logs` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: validate D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `visit_logs` (`user_id`,`arc_id`,`cdate`,`year`,`month`,`day`,`ip`) VALUES ('2','41','1482670227','2016','12','25','110.188.246.198') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-12-25T20:50:35+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670300257&ACTION=ARC_DETAIL&ID=41&USER_ID=2&KEY=D47BA7A41D3D996F0A13A35EA08FFDF0&FIELD=id%7Ctitle%7Cintro%7Ccontent%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: PAGE D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0047s ]
+SQL: SELECT `id` FROM `users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0138s ]
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0177s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SELECT `id`,`title`,`intro`,`content`,`thumb` FROM `arcs` LIMIT 0,10   [ RunTime:0.0142s ]
+NOTIC: [2048] Declaration of Common\Model\VisitLogsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\VisitLogsModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\VisitLogsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\VisitLogsModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `visit_logs` [ RunTime:0.0174s ]
+NOTIC: [8] Undefined index: validate D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0131s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `visit_logs` (`user_id`,`arc_id`,`cdate`,`year`,`month`,`day`,`ip`) VALUES ('2','41','1482670235','2016','12','25','110.188.246.198') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-12-25T20:50:40+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670305686&ACTION=ARC_LIST&PAGE=2&CATALOG_ID=60&KEY=C45EC8A3D6EF04AD14E1C847CCB6EDF9&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0184s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb` FROM `arcs` WHERE `catalog_id` = 60 LIMIT 10,10   [ RunTime:0.0133s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE `catalog_id` = 60 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-12-25T20:51:00+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670325790&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=3&PUSH_GROUP=1&PAGE=0&KEY=268AE05E31F83E444AB9950B0814C143&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0177s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0139s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-12-25T20:51:03+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670328271&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=2&PUSH_GROUP=1&PAGE=1&KEY=E9C561029BE32AB59EEAA255E7209EF6&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0173s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('2',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0086s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('2',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-12-25T20:51:03+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670328272&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=1&PUSH_GROUP=1&PAGE=1&KEY=97F0EFE4ECB0F9ADDC5AB5765AC97D30&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0123s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('1',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0132s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('1',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-12-25T20:51:04+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670329853&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=4&PUSH_GROUP=1&PAGE=1&KEY=46F5C8BAAEF9C023BE281E8167D623BE&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0178s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('4',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0143s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('4',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-12-25T20:51:04+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670329854&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=1&PUSH_GROUP=1&PAGE=1&KEY=CDAAA64B85C43B52EF52125303F6F779&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0174s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('1',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0131s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('1',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-12-25T20:51:04+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670329869&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=5&PUSH_GROUP=1&PAGE=1&KEY=1D91E9CA57B490E787C9E34A1DF63E62&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0188s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('5',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0136s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('5',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-12-25T20:51:05+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670329870&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=1&PUSH_GROUP=1&PAGE=1&KEY=539E59115DCCFBBFCA8486465F4F2A64&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0182s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('1',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('1',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-12-25T20:51:05+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670329881&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=3&PUSH_GROUP=1&PAGE=0&KEY=3D78922DDEA57391A489AD2CEB4F7BD0&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0171s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0132s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-12-25T20:52:06+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670390967&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=3&PUSH_GROUP=1&PAGE=1&KEY=CC19B0932220062BD9C1D83A50FC1920&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0175s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0088s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-12-25T20:52:09+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670394058&ACTION=ARC_DETAIL&ID=41&USER_ID=2&KEY=F1000344DA17A3433C15F3B2CF8EF5C3&FIELD=id%7Ctitle%7Cintro%7Ccontent%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: PAGE D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0104s ]
+SQL: SELECT `id` FROM `users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0134s ]
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SELECT `id`,`title`,`intro`,`content`,`thumb` FROM `arcs` LIMIT 0,10   [ RunTime:0.0135s ]
+NOTIC: [2048] Declaration of Common\Model\VisitLogsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\VisitLogsModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\VisitLogsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\VisitLogsModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `visit_logs` [ RunTime:0.0176s ]
+NOTIC: [8] Undefined index: validate D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0134s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `visit_logs` (`user_id`,`arc_id`,`cdate`,`year`,`month`,`day`,`ip`) VALUES ('2','41','1482670329','2016','12','25','110.188.246.198') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2016-12-25T20:52:14+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670399659&ACTION=ARC_DETAIL&ID=41&USER_ID=2&KEY=6A5ED78551B5E501A9B2540B0C6D0D1F&FIELD=id%7Ctitle%7Cintro%7Ccontent%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: PAGE D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0148s ]
+SQL: SELECT `id` FROM `users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0133s ]
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0184s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SELECT `id`,`title`,`intro`,`content`,`thumb` FROM `arcs` LIMIT 0,10   [ RunTime:0.0131s ]
+NOTIC: [2048] Declaration of Common\Model\VisitLogsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\VisitLogsModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\VisitLogsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\VisitLogsModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `visit_logs` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: validate D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `visit_logs` (`user_id`,`arc_id`,`cdate`,`year`,`month`,`day`,`ip`) VALUES ('2','41','1482670334','2016','12','25','110.188.246.198') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-12-25T20:52:20+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670405297&ACTION=ARC_DETAIL&ID=41&USER_ID=2&KEY=F84903C266DD7641563690075CF3751E&FIELD=id%7Ctitle%7Cintro%7Ccontent%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: PAGE D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0180s ]
+SQL: SELECT `id` FROM `users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0134s ]
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0174s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SELECT `id`,`title`,`intro`,`content`,`thumb` FROM `arcs` LIMIT 0,10   [ RunTime:0.0164s ]
+NOTIC: [2048] Declaration of Common\Model\VisitLogsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\VisitLogsModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\VisitLogsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\VisitLogsModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `visit_logs` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: validate D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `visit_logs` (`user_id`,`arc_id`,`cdate`,`year`,`month`,`day`,`ip`) VALUES ('2','41','1482670340','2016','12','25','110.188.246.198') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-12-25T20:52:24+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482670408991&ACTION=ARC_DETAIL&ID=41&USER_ID=2&KEY=4309375629263EC45A25AC77664D8955&FIELD=id%7Ctitle%7Cintro%7Ccontent%7Cthumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: PAGE D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0145s ]
+SQL: SELECT `id` FROM `users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0140s ]
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0178s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 70 行.
+SQL: SELECT `id`,`title`,`intro`,`content`,`thumb` FROM `arcs` LIMIT 0,10   [ RunTime:0.0135s ]
+NOTIC: [2048] Declaration of Common\Model\VisitLogsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\VisitLogsModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\VisitLogsModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\VisitLogsModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `visit_logs` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `config` WHERE `id` = 'move_day' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `visit_logs` (`user_id`,`arc_id`,`cdate`,`year`,`month`,`day`,`ip`) VALUES ('2','41','1482670344','2016','12','25','110.188.246.198') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-12-25T22:25:35+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482675999879&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=3&PUSH_GROUP=1&PAGE=1&KEY=AE86DE20B12DF291167433F1A8F2CF45&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0155s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0132s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-12-25T22:25:43+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482676008494&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=3&PUSH_GROUP=1&PAGE=2&KEY=7861DFCC0AA753E646ED8099DF502CEA&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0183s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 10,10   [ RunTime:0.0137s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-12-25T22:26:04+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482676030220&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=3&PUSH_GROUP=1&PAGE=2&KEY=AAB65CC63E0DFEDB8DCF9487929A46C6&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0174s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 10,10   [ RunTime:0.0161s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-12-25T22:26:06+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482676031851&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=3&PUSH_GROUP=1&PAGE=3&KEY=91CB619DEB50ADA611CC03EC3DF0155F&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0175s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 20,10   [ RunTime:0.0133s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-12-25T22:26:08+08:00 ] 110.188.246.198 /api/?TIMESTAMP=1482676033358&ACTION=PUSH_DATA&CATALOG_ID=60&PUSH_ID=3&PUSH_GROUP=1&PAGE=1&KEY=308D27AE259D0F21F341C57AA022F231&FIELD=id%7Ctitle%7Cintro%7Ccdate%7Cthumb%7Ccontent%7Cvideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\dwang\wwwroot\core\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: LENGTH D:\wwwroot\dwang\wwwroot\core\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2048] Declaration of Common\Model\ArcsModel::ajaxTable() should be compatible with Common\Model\ManagerModel::ajaxTable($params = Array) D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ArcsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `arcs` [ RunTime:0.0192s ]
+SQL: SELECT `id`,`title`,`intro`,`cdate`,`thumb`,`content`,`video` FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 0,10   [ RunTime:0.0133s ]
+NOTIC: [8] Undefined index: group D:\wwwroot\dwang\wwwroot\core\Application\Common\Model\ManagerModel.class.php 第 160 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `arcs` WHERE ( (find_in_set('3',push_id) OR push_id = 'all') AND (find_in_set('1',push_group) OR push_group = 'all') ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+

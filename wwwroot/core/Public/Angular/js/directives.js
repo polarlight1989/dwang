@@ -551,7 +551,7 @@ app.directive('fgInputDate',function($req,$filter){
 			must:'@',
 		},
 		require:'ngModel',
-		link:function($scope,$element,attr,ctrl){
+		link:function($scope,$element,attr,ctrl){ 
 			var timeFormat = "yyyy年MM月dd日 hh:mm:ss";
 			$element.bind('change',function(){
 				ctrl.$setViewValue($element.find('[text]').val())
@@ -559,8 +559,10 @@ app.directive('fgInputDate',function($req,$filter){
 			$scope.value = '';
 			ctrl.$render = function(){ 
 				if(ctrl.$modelValue){
-					var a = ctrl.$modelValue;
-					a = $filter('date')(a*1000,timeFormat);
+					var dd = ctrl.$modelValue;
+					a = $filter('date')(dd*1000,timeFormat); 
+					
+					$('.form_datetime').datetimepicker('update', new Date(dd*1000));
 					$scope.value = a;
 				}
 			}
@@ -583,8 +585,9 @@ app.directive('fgInputDate',function($req,$filter){
 					todayHighlight: 1,
 					startView: 2,
 					forceParse: 0,
-					showMeridian: 1
+					showMeridian: 1, 
 				});
+				
 			});
 		}
 	}
